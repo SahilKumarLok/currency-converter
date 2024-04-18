@@ -2,18 +2,18 @@
 import inquirer from "inquirer"
 
 // the exchange rates are static
-console.log("Welcome to the Currency Converter! This program will convert an amount from one currency to another using the exchange rates provided in the code. Please note that the exchange rates are static and may not be up-to-date. To get started, please select the currency you want to convert from and to, and enter the amount.");
+console.log("Welcome to the Currency Converter! This program will convert an amount from one currency to another using the exchange rates specified in the code. It's important to note that these exchange rates are fixed according to USD and have been set on 18 April 2024 at 1:20 PM. To get started, please select the currency you want to convert from and to, and enter the amount.");
 
 // define the list of currencies and their exchange rates
 let exchange_rate: any  = {
     "USD" : 1,
-    "EUR" :0.9,
-    "GBP" : 0.8,
-    "JPY" : 113,
-    "AUD" : 1.65,
-    "CAD" : 1.3,
-    "PKR" : 280,
-    "CNY" : 0.75,
+    "EUR" :0.94,
+    "GBP" : 0.80,
+    "JPY" : 154.29,
+    "AUD" : 1.55,
+    "CAD" : 1.38,
+    "PKR" : 277.57,
+    "CNY" : 7.24,
     //Add more currencies and their exchange rates here
 };
 
